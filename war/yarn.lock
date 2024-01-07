@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 8
+  version: 6
   cacheKey: 10c0
 
 "@aashutoshrathi/word-wrap@npm:^1.2.3":
@@ -3828,9 +3828,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fsevents@patch:fsevents@npm%3A~2.3.2#optional!builtin<compat/fsevents>":
+"fsevents@patch:fsevents@npm%3A~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#optional!builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
   dependencies:
     node-gyp: "npm:latest"
   conditions: os=darwin
@@ -4394,38 +4394,38 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "jenkins-ui@workspace:."
   dependencies:
-    "@babel/cli": "npm:7.23.0"
-    "@babel/core": "npm:7.23.2"
-    "@babel/preset-env": "npm:7.23.2"
-    babel-loader: "npm:9.1.3"
-    clean-webpack-plugin: "npm:4.0.0"
-    css-loader: "npm:6.8.1"
-    css-minimizer-webpack-plugin: "npm:5.0.1"
-    eslint: "npm:8.53.0"
-    eslint-config-prettier: "npm:9.0.0"
-    handlebars: "npm:4.7.8"
-    handlebars-loader: "npm:1.7.3"
-    hotkeys-js: "npm:3.12.0"
-    jquery: "npm:3.7.1"
-    lodash: "npm:4.17.21"
-    mini-css-extract-plugin: "npm:2.7.6"
-    postcss: "npm:8.4.31"
-    postcss-loader: "npm:7.3.3"
-    postcss-preset-env: "npm:9.3.0"
-    postcss-scss: "npm:4.0.9"
-    prettier: "npm:3.0.3"
-    sass: "npm:1.69.5"
-    sass-loader: "npm:13.3.2"
-    sortablejs: "npm:1.15.0"
-    style-loader: "npm:3.3.3"
-    stylelint: "npm:15.10.2"
-    stylelint-checkstyle-reporter: "npm:0.2.0"
-    stylelint-config-standard: "npm:33.0.0"
-    tippy.js: "npm:6.3.7"
-    webpack: "npm:5.89.0"
-    webpack-cli: "npm:5.1.4"
-    webpack-remove-empty-scripts: "npm:1.0.4"
-    window-handle: "npm:1.0.1"
+    "@babel/cli": 7.23.0
+    "@babel/core": 7.23.2
+    "@babel/preset-env": 7.23.2
+    babel-loader: 9.1.3
+    clean-webpack-plugin: 4.0.0
+    css-loader: 6.8.1
+    css-minimizer-webpack-plugin: 5.0.1
+    eslint: 8.53.0
+    eslint-config-prettier: 9.0.0
+    handlebars: 4.7.8
+    handlebars-loader: 1.7.3
+    hotkeys-js: 3.12.0
+    jquery: 3.7.1
+    lodash: 4.17.21
+    mini-css-extract-plugin: 2.7.6
+    postcss: 8.4.31
+    postcss-loader: 7.3.3
+    postcss-preset-env: 9.3.0
+    postcss-scss: 4.0.9
+    prettier: 3.0.3
+    sass: 1.69.5
+    sass-loader: 13.3.2
+    sortablejs: 1.15.1
+    style-loader: 3.3.3
+    stylelint: 15.10.2
+    stylelint-checkstyle-reporter: 0.2.0
+    stylelint-config-standard: 33.0.0
+    tippy.js: 6.3.7
+    webpack: 5.89.0
+    webpack-cli: 5.1.4
+    webpack-remove-empty-scripts: 1.0.4
+    window-handle: 1.0.1
   languageName: unknown
   linkType: soft
 
@@ -6348,16 +6348,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@npm%3A^1.14.2#optional!builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.20.0#optional!builtin<compat/resolve>":
+"resolve@patch:resolve@npm%3A^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@npm%3A^1.20.0#~builtin<compat/resolve>":
   version: 1.22.1
-  resolution: "resolve@patch:resolve@npm%3A1.22.1#optional!builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
   dependencies:
     is-core-module: "npm:^2.9.0"
     path-parse: "npm:^1.0.7"
     supports-preserve-symlinks-flag: "npm:^1.0.0"
   bin:
     resolve: bin/resolve
-  checksum: 0d8ccceba5537769c42aa75e4aa75ae854aac866a11d7e9ffdb1663f0158ee646a0d48fc2818ed5e7fb364d64220a1fb9092a160e11e00cbdd5fbab39a13092c
+  checksum: 8/5656f4d0bedcf8eb52685c1abdf8fbe73a1603bb1160a24d716e27a57f6cecbe2432ff9c89c2bd57542c3a7b9d14b1882b73bfe2e9d7849c9a4c0b8b39f02b8b
   languageName: node
   linkType: hard
 
@@ -6617,10 +6617,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sortablejs@npm:1.15.0":
-  version: 1.15.0
-  resolution: "sortablejs@npm:1.15.0"
-  checksum: de2e99309d6b8f5a521050c391cd3cbeeb5ac66cf91879b4212469cdcee13f6304bfacbfa183d43276deb618f40af6cb6d8a8c90ca3ba82ac28d8d5f5ef81bef
+"sortablejs@npm:1.15.1":
+  version: 1.15.1
+  resolution: "sortablejs@npm:1.15.1"
+  checksum: 8/56c9abdea2c83fc75cf05ed9430119522380e4953534e94884e2fb85504999064427f7a2d7f876afe779ef9077ccde190af38fd106e9daf7eef258d71a7a86a9
   languageName: node
   linkType: hard
 
